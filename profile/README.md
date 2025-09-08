@@ -26,7 +26,7 @@ TekPeek is a space dedicated to exploring, experimenting, and building projects 
 ## Featured Projects  
 
 - **StockFlow** → Kubernetes-based stock analysis microservice with real-time signal generation  
-- **Kubesnap** →    
+- **Kubesnap** →  A microservice that takes log snapshot of a namespace and push them to object storage.  
 
 ---
 
