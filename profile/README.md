@@ -2,7 +2,7 @@
 
 **Peeking deeper into technology, one project at a time.**  
 
-TekPeek is a space dedicated to exploring, experimenting, and building projects around **systems, DevOps, and automation**. From Linux tools and Kubernetes deployments to cloud-native experiments and technical blogs, TekPeek is where curiosity meets engineering.  
+TekPeek is a space dedicated to exploring, experimenting, and building projects around **systems, DevOps, and automation** by [Avinash S](https://github.com/AvinashSubhash). From Linux tools and Kubernetes deployments to cloud-native experiments and technical blogs, TekPeek is where curiosity meets engineering.  
 
 ---
 
