@@ -1,47 +1,30 @@
-# TekPeek  
+# Systems Engineering & Cloud-Native Experiments
 
-**Peeking deeper into technology, one project at a time.**  
+**TekPeek** serves as an archive for experiments in distributed systems, automation, and cloud-native infrastructure. This organization houses projects focused on Kubernetes operators, microservices architecture, and Linux system utilities.
 
-TekPeek is a space dedicated to exploring, experimenting, and building projects around **systems, DevOps, and automation** by [Avinash S](https://github.com/AvinashSubhash). From Linux tools and Kubernetes deployments to cloud-native experiments and technical blogs, TekPeek is where curiosity meets engineering.  
+## Core Methodology
 
----
+The projects within this organization adhere to the following engineering principles:
 
-## What You’ll Find Here  
+- **Microservices Architecture**: decoupled services with defined API contracts.
+- **Observability**: integrating logging and monitoring for operational visibility.
 
-- **Open-Source Utilities** → Small tools that improve productivity and developer workflows  
-- **DevOps & Cloud-Native Projects** → Kubernetes, microservices, CI/CD pipelines, and automation demos  
-- **Systems Experiments** → Hands-on explorations of filesystems, kernels, storage, and infrastructure  
-- **Knowledge Sharing** → Technical write-ups and blogs that simplify complex concepts  
+## Project Initiatives
 
----
+| Project | Architecture & Function | Technology Stack |
+| :--- | :--- | :--- |
+| **[StockFlow](https://github.com/TekPeek/StockFlow)** | A strictly coupled set of microservices deployed on Kubernetes for real-time stock analysis. Processes market data streams to generate algorithmic trading signals. | **Python, Kubernetes, Docker, Microservices** |
+| **[Kubesnap](https://github.com/TekPeek/Kubesnap)** | A lightweight utility for namespace-level observability. Captures and aggregates pod logs, persistently archiving snapshots to S3-compatible object storage. | **Python, Shell, AWS S3 / Object Storage** |
 
-## Our Goals  
+## Technical Stack
 
-- Build **practical, reusable tools** for developers and system enthusiasts  
-- Experiment with **cutting-edge technologies** in Linux, cloud, and automation  
-- Share **insights and learnings** openly with the community  
+Tools and technologies utilized across TekPeek repositories:
 
----
+- **Orchestration**: Kubernetes, Docker Compose
+- **Languages**: Python, Bash/Shell
+- **Infrastructure**: Linux (Kernel/Filesystem interactions), CI/CD Pipelines
+- **Storage**: Object Storage (S3 Standard)
 
-## Featured Projects  
+## Maintainer
 
-- **StockFlow** → Kubernetes-based stock analysis microservice with real-time signal generation  
-- **Kubesnap** →  A microservice that takes log snapshot of a namespace and push them to object storage.  
-
----
-
-## Contributing  
-
-While most projects start as personal experiments, contributions, suggestions, and discussions are always welcome. If you have ideas, feel free to open an issue or start a discussion!  
-
----
-
-## Connect  
-
-- Blog: [TekPeek Blogs](https://avinashsubhash.github.io/tekpeek) *(coming soon)*  
-- Twitter/X: [@kingaiva_](https://x.com/kingaiva_)  
-- LinkedIn: [Avinash S](https://www.linkedin.com/in/avinash-s-07551a1a0/)  
-
----
-
-**TekPeek is about exploring technology with curiosity and creativity.**  
+Maintained by **[Avinash S](https://github.com/AvinashSubhash)** as a continuous portfolio of systems engineering work.
