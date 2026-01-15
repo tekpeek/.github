@@ -13,8 +13,12 @@ The projects within this organization adhere to the following engineering princi
 
 | Project | Architecture & Function | Technology Stack |
 | :--- | :--- | :--- |
-| **[StockFlow](https://github.com/TekPeek/StockFlow)** | A strictly coupled set of microservices deployed on Kubernetes for real-time stock analysis. Processes market data streams to generate algorithmic trading signals. | **Python, Kubernetes, Docker, Microservices** |
-| **[Kubesnap](https://github.com/TekPeek/Kubesnap)** | A lightweight utility for namespace-level observability. Captures and aggregates pod logs, persistently archiving snapshots to S3-compatible object storage. | **Python, Shell, AWS S3 / Object Storage** |
+| **[StockFlow](https://github.com/TekPeek/StockFlow)** | A strictly coupled set of microservices deployed on Kubernetes for real-time stock analysis. Processes market data streams to generate algorithmic trading signals. | **Python, Kubernetes, Docker, FastAPI** |
+| **[Kubesnap](https://github.com/TekPeek/Kubesnap)** | A lightweight utility for namespace-level observability. Captures and aggregates pod logs, persistently archiving snapshots to S3-compatible object storage. | **Python, Kubernetes, Docker, Shell, AWS S3 / Object Storage, FastAPI** |
+| **[Event-Dispatcher](https://github.com/TekPeek/event-dispatcher)** | Centralized notification engine for StockFlow, currently managing health alerts with extensible architecture for future event types. | **Python, Kubernetes, Docker, Shell, FastAPI** |
+
+
+
 
 ## Technical Stack
 
